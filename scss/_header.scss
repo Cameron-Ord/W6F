@@ -1,5 +1,5 @@
 #page_header{
-
+background-color: whitesmoke;
     width: 100%;
  place-items: start;
 display: grid;
@@ -7,17 +7,20 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 >span{
 
     display: grid;
-grid-template-rows: 15vh 10vh 15vh;
+grid-template-rows: 22vh 10vh 15vh;
 
 >h2{
-
+   
     justify-self: start;
 
 }
-
+>p{
+    justify-self: start;
+  
+}
 
 >h1{
-
+ 
 justify-self: start;
 align-self: center;
 font-size: 1.6em;

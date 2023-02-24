@@ -1,4 +1,11 @@
 #page_footer{
-
-    
+background-color:rgb(69, 69, 69);
+width: 100%;
+min-height: 15vh;    
+display: grid;
+>p{
+    align-self: center;
+text-align: center;
+    color: white;
+}
 }
