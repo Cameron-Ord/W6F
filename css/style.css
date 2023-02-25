@@ -7,7 +7,7 @@
 }
 #page_header > span {
   display: grid;
-  grid-template-rows: 22vh 10vh 15vh;
+  grid-template-rows: 8vh 6vh 5vh 5vh;
 }
 #page_header > span > h2 {
   justify-self: start;
@@ -50,49 +50,28 @@ body {
   place-items: center;
   min-height: 40vh;
 }
-#hero_section > span {
+#hero_section > .span1 {
   display: grid;
   place-items: center;
-  grid-template-rows: 12vh 18vh 59vh;
+  grid-template-rows: 8vh 12vh 50vh 8vh 5vh 5vh 5vh 5vh 5vh 5vh;
 }
-#hero_section > span > h3 {
+#hero_section > .span1 > h3 {
   margin-left: 27px;
   justify-self: start;
 }
-#hero_section > span > p {
+#hero_section > .span1 > p {
   width: 90%;
   text-align: start;
   margin-left: 15px;
 }
-#hero_section > span > img {
+#hero_section > .span1 > img {
   width: auto;
   max-width: 85%;
   border-radius: 180px;
 }
-
-#hero_section_2 {
-  display: grid;
-  place-items: start;
-  min-height: 30vh;
-}
-#hero_section_2 > span {
-  display: grid;
-  place-items: center;
-  grid-template-rows: 12vh 6vh 6vh 6vh 6vh 6vh 6vh 10vh;
-  text-align: start;
-}
-#hero_section_2 > span > h3 {
+#hero_section > .span1 > h4 {
+  margin-left: 27px;
   justify-self: start;
-  margin-left: 10px;
-  font-size: 1.7em;
-}
-#hero_section_2 > span > p {
-  justify-self: start;
-  margin-left: 10px;
-}
-#hero_section_2 > span h4 {
-  justify-self: start;
-  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

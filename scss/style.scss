@@ -19,10 +19,10 @@ background-color: whitesmoke;
     display: grid;
     place-items: center;
 min-height: 40vh;
->span{
+>.span1{
 display: grid;
 place-items: center;
-grid-template-rows: 12vh 18vh 59vh;
+grid-template-rows: 8vh 12vh 50vh 8vh 5vh 5vh 5vh 5vh 5vh 5vh ;
 
 >h3{
    
@@ -41,37 +41,17 @@ max-width: 85%;
 border-radius: 180px;
 }
 
-}
-
-}
-
-#hero_section_2{
-display:grid;
-place-items: start;
-min-height: 30vh;
->span{
-display: grid;
-place-items: center;
-grid-template-rows: 12vh 6vh 6vh 6vh 6vh 6vh 6vh 10vh;
-text-align: start;
-
->h3{
-justify-self: start;
-margin-left: 10px;
-font-size: 1.7em;
-}
-
->p{
-    justify-self: start;
-    margin-left: 10px;
-
-}
-
-h4{
+>h4{
+    margin-left: 27px;
     justify-self: start;
 
-    margin-left: 10px;
-}
 }
 
+
+
 }
+
+
+}
+
+
