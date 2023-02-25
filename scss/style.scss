@@ -8,20 +8,18 @@ body {
     place-items: center;
 }
 
-#cheeky_div{
-background-color: whitesmoke;
-width: 100%;
-display: grid;
-place-items: start;
-grid-template-rows: 7vh 10vh;
->h3{
-margin-left: 30px;
-font-size: 1.6em;
-}
-
->p{
-    margin-left: 30px;
-}
+.cheeky_div{
+    background-color: whitesmoke;
+    width: 100%;
+    justify-self: start;
+    display: grid;
+    grid-template-rows: 5vh;
+    >h3{
+        margin-left: 30px;
+    }
+    >p{
+        margin-left: 30px;
+    }
 }
 
 #page_main{
@@ -33,12 +31,12 @@ background-color: whitesmoke;
 
 #hero_section{
     display: grid;
-    place-items: center;
+   
 min-height: 40vh;
 >.span1{
 display: grid;
 place-items: center;
-grid-template-rows: 12vh 20vh 50vh 8vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh;
+grid-template-rows: 16vh 12vh 8vh;
 
 >h3{
    
@@ -50,80 +48,211 @@ justify-self: start;
     text-align: start;
     margin-left: 30px;
 }
+}
+>.span2{
+    display: grid;
+    place-items: center;
+    grid-template-rows: 40vh;
 
->img{
-width: auto;
-max-width: 85%;
-border-radius: 180px;
+    >img{
+        width: 65%;
+        border-radius: 160px;
+
+    }
+}
+>.span3{
+    display: grid;
+grid-template-rows: 6vh 4vh 4vh 4vh 4vh 4vh;
+>p{
+
+    margin-left: 30px;
+}
+>h3{
+
+    margin-left: 30px;
+
 }
 
 >h4{
     margin-left: 30px;
-    justify-self: start;
-
 }
-
-
-
 }
-
 
 }
 
 
 @media only screen and (min-width: 720px){
-
-
-    #hero_section{
-
-
-        >.span1{
-            display: grid;
-            place-items: center;
-            grid-template-rows: 12vh 12vh 50vh 8vh 5vh 5vh 5vh 5vh 5vh 5vh 5vh;
-            >img{
-                width: auto;
-                max-width: 45%;
-                border-radius: 180px;
-                }
-
-                >p{
-                    margin-left: 60px;
-
-                }
-
-                >h3{
-                    margin-left: 60px;
-
-        
-                }
-
-                >h4{
-                    margin-left: 60px;
-
-                }
-        }
-
+    #page_main{
+        width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: whitesmoke;
     }
+    
+    #hero_section{
+        display: grid;
+       
+    min-height: 40vh;
+    >.span1{
+    display: grid;
+    place-items: center;
+    grid-template-rows: 10vh 5vh 5vh;
+    
+    >h3{
+       
+        margin-left: 70px;
+        justify-self: start;
+    }
+    >p{
+    justify-self: start;
+        text-align: start;
+        margin-left: 70px;
+    }
+    }
+    >.span2{
+        display: grid;
+        place-items: center;
+        grid-template-rows: 40vh;
+    
+        >img{
+            width: 45%;
+            border-radius: 190px;
+    
+        }
+    }
+    >.span3{
+        display: grid;
+    grid-template-rows: 6vh 4vh 4vh 4vh 4vh 4vh;
+    >p{
+    
+        margin-left: 70px;
+    }
+    >h3{
+    
+        margin-left: 70px;
+    
+    }
+    
+    >h4{
+        margin-left: 70px;
+    }
+    }
+    
+    }
+
+    .cheeky_div{
+        background-color: whitesmoke;
+        width: 100%;
+        justify-self: start;
+        display: grid;
+        grid-template-rows: 5vh;
+        >h3{
+            margin-left: 70px;
+        }
+        >p{
+            margin-left: 70px;
+        }
+    }
+
 }
 
 @media only screen and (min-width: 1020px){
 
-   #hero_section{
-
-
-        >.span1{
-            display: grid;
-            place-items: center;
-      
-            >img{
-                width: auto;
-                max-width: 20%;
-                border-radius: 180px;
-                }
-
+    .cheeky_div{
+        background-color: whitesmoke;
+        width: 100%;
+        place-items: center;
+        display: grid;
+        grid-template-rows: 5vh 8vh 8vh;
+        >h3{
+            margin-left: 0px;
+        }
+        >p{
+            margin-left: 0px;
         }
     }
 
 
+    #page_main{
+        width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: whitesmoke;
+    min-height: 50vh;
+    }
+    
+    #hero_section{
+        display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+
+    >.span1{
+    display: grid;
+    place-items: end;
+   
+    grid-template-rows: 12vh 6vh ;
+    
+    >h3{
+        margin-bottom: 73px;
+   display: inline;
+       align-self: center;
+    margin-left: 90px;
+        justify-self:center;
+        text-align: start;
+    }
+    >p{
+ 
+display: inline-block;width: 50%;
+
+        align-self: center;
+    justify-self: end;
+        text-align: start;
+       
+    }
+    }
+    >.span2{
+        display: grid;
+        place-items: center;
+        grid-template-rows: 40vh;
+    
+        >img{
+            justify-self: center;
+            width: 45%;
+            border-radius: 200px;
+    
+        }
+    }
+    >.span3{
+        display: grid;
+    grid-template-rows: 6vh 4vh 4vh 4vh 4vh 4vh 4vh;
+    >p{
+        align-self: center;
+        justify-self: start;
+        margin-left: 0px;
+    }
+    >h3{
+        align-self: center;
+        justify-self: start;
+        margin-left: 0px;
+    
+    }
+    
+    >h4{
+        align-self: center;
+        justify-self: start;
+        margin-left: 0px;
+    }
+    }
+    
+    }
+}
+#cheeky_div{
+    background-color: whitesmoke;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 7vh 10vh;
+    >h3{
+    margin-left: 30px;
+    font-size: 1.6em;
+    }
 }

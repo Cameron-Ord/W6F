@@ -28,19 +28,19 @@ align-self: center;
 
 @media only screen and (min-width: 720px){
     #page_header{
-
+padding-bottom: 50px;
         >.span_logo{
         
             display: grid;
-        grid-template-columns: 1fr 5fr;
+        grid-template-columns: 1fr 4fr;
         
         >h1{
-
+margin-left: 70px;
         
         
         }
         >img{
-            margin-right: 30px;
+            margin-right: 70px;
             width: 5%;
             justify-self: end;
             align-self: center;
@@ -48,4 +48,27 @@ align-self: center;
         }
         }
 
+}
+
+@media only screen and (min-width: 1020px){
+    #page_header{
+place-items: center;
+        >.span_logo{
+        
+            display: grid;
+        grid-template-columns:1fr 10fr;
+        
+        >h1{
+            align-self: center;
+    margin-left: 0px;
+        justify-self: start;
+        }
+        >img{
+            margin-right: 0px;
+            width: 3%;
+            justify-self: end;
+            align-self: center;
+        }
+        }
+        }
 }
